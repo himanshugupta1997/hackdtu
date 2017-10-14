@@ -1,0 +1,138 @@
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>New User</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        .navbar-default
+        {
+            background-color: #a51a21;
+            border-color: #a51a21;
+        }
+        .navbar-default .navbar-brand {
+            color: #ecf0f1;
+            font-size: 1.3em;
+        }
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand:focus {
+            font-size: 1.3em;
+            color: #ffbbbc;
+        }
+        .navbar-default .navbar-text {
+            color: #ecf0f1;
+            font-size: 1.3em;
+        }
+        .navbar-default .navbar-nav > li > a {
+            color: #ecf0f1;
+            font-size: 1.3em;
+        }
+        .navbar-default .navbar-nav > li > a:hover,
+        .navbar-default .navbar-nav > li > a:focus {
+            color: #ffbbbc;
+            font-size: 1.3em;
+        }
+        .navbar-default .navbar-nav > .active > a,
+        .navbar-default .navbar-nav > .active > a:hover,
+        .navbar-default .navbar-nav > .active > a:focus {
+            color: #ffbbbc;
+            font-size: 1.3em;
+            background-color: #a51a21;
+        }
+        .navbar-default .navbar-nav > .open > a,
+        .navbar-default .navbar-nav > .open > a:hover,
+        .navbar-default .navbar-nav > .open > a:focus {
+            color: #ffbbbc;
+            font-size: 1.3em;
+            background-color: #a51a21;
+        }
+        .navbar-default .navbar-toggle {
+            border-color: #a51a21;
+        }
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            background-color: #a51a21;
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #ecf0f1;
+        }
+        .navbar-default .navbar-collapse,
+        .navbar-default .navbar-form {
+            border-color: #ecf0f1;
+        }
+        .navbar-default .navbar-link {
+            font-size: 1.3em;
+            color: #ecf0f1;
+        }
+        .navbar-default .navbar-link:hover {
+            color: #ffbbbc;
+            font-size: 1.3em;
+        }
+        @media (max-width: 767px) {
+            .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+                color: #ecf0f1;
+            }
+            .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+            .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+                color: #ffbbbc;
+            }
+            .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+            .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+            .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+                color: #ffbbbc;
+                background-color: #a51a21;
+            }
+        }
+
+
+    </style>
+    <script src="jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+</head>
+<body style="background-color: #a51a21">
+<div class="container" style="background-color: #a51a21">
+<form action="#">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+
+             <h3 style="text-align: center; color: white"> Enter your details to register</h3>
+            <br>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" class="form-control input-lg" placeholder="Name" tabindex="1" required>
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <input type="number" name="phone_number" id="phone_number" class="form-control input-lg" placeholder="Phone-Number" tabindex="3" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4" required>
+            </div>
+            <div class="form-group">
+                <label for="dob" style="color: white"> &nbsp; Date of Birth</label>
+                <input type="date" name="dob" id="dob" class="form-control input-lg" placeholder="Date of Birth" tabindex="5" required>
+
+            </div>
+            <br>
+            <div class="row" >
+                <div class="col-sm-1"></div>
+                <div class=" col-sm-10" ><button type="submit" id="submit" style=" border: 2px solid #a51a21; background-color: #7a090f; height: 10%;   color: white" class="btn btn-primary btn-block btn-lg ">Register</button></div>
+
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+</form>
+</div>
+</body>
+</html>
